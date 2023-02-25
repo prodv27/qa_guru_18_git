@@ -2,6 +2,10 @@ package com.gmail.prodv27;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello qa.guru!!!");
+        System.out.println(getMessage());
+    }
+
+    private static String getMessage() {
+        return "Hello qa.guru!!!";
     }
 }
